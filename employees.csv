@@ -1,0 +1,101 @@
+employee_id,name,age,gender,role,department,salary,join_date,email,phone,city,state,performance_rating,experience_years,employment_type,work_mode
+1,Gautami Sachar,44,M,Accountant,Operations,143617,2022-01-21,deshmukhqasim@example.net,0824072493,Sambalpur,Manipur,4,2,Full-Time,Hybrid
+2,Jasmit Magar,41,F,Software Developer,Operations,67524,2024-03-21,uchander@example.com,02202640462,Anand,Haryana,3,2,Full-Time,Remote
+3,Jatin Kapadia,28,M,Accountant,Finance,48545,2022-05-09,faqidmistry@example.net,6900809974,Rajkot,Karnataka,5,1,Full-Time,On-site
+4,Omisha Comar,38,M,Product Manager,Design,142842,2021-02-14,pratyush65@example.net,+917282692363,Gudivada,Chhattisgarh,1,10,Full-Time,Hybrid
+5,Vedika Khurana,54,F,Team Lead,Support,105163,2021-01-13,dayita19@example.net,+911429802710,Udupi,Tamil Nadu,1,14,Intern,Remote
+6,Triveni Date,39,F,HR Executive,Marketing,93595,2024-08-12,chandreshdubey@example.com,09741193392,Jabalpur,Telangana,4,4,Contract,On-site
+7,Yauvani Pant,30,M,Support Engineer,Support,99292,2023-04-09,atharvroy@example.net,5928945192,Morbi,Assam,1,0,Intern,Remote
+8,Oliver Dave,34,F,Marketing Specialist,Design,136839,2022-08-10,calebgandhi@example.com,8216750471,Bulandshahr,Arunachal Pradesh,4,10,Full-Time,Hybrid
+9,Jasmit Borde,39,M,Team Lead,Marketing,106633,2022-09-27,mdutta@example.org,+913540358868,Hyderabad,Manipur,3,8,Full-Time,On-site
+10,Aarnav Bir,41,F,UI/UX Designer,Support,132505,2025-04-03,idutt@example.net,08912127602,Farrukhabad,Manipur,4,7,Intern,Hybrid
+11,Nikita Venkatesh,48,M,HR Executive,Operations,143920,2021-04-19,kharechampak@example.org,0295618846,Miryalaguda,Jharkhand,2,6,Full-Time,On-site
+12,Wyatt Saxena,35,M,Support Engineer,Design,89135,2025-09-20,harinisheth@example.com,+912465652052,Aurangabad,Uttarakhand,3,5,Intern,Remote
+13,Azad Mukhopadhyay,41,M,UI/UX Designer,Support,46575,2024-12-09,agastya99@example.org,+915071783848,Uluberia,Karnataka,2,10,Full-Time,Remote
+14,Udant Mishra,56,M,Product Manager,Marketing,73260,2024-11-28,balveerbadal@example.net,+916339939425,Purnia,Jharkhand,1,19,Contract,Hybrid
+15,Krisha Raju,32,M,UI/UX Designer,Support,139422,2021-12-22,girishkohli@example.net,+910328069077,Bellary,Tamil Nadu,5,9,Intern,Remote
+16,Triya Krish,34,F,Support Engineer,Operations,75552,2023-06-02,yadavi29@example.org,+916954716043,Kulti,West Bengal,3,2,Full-Time,Hybrid
+17,Meghana Deshmukh,25,F,HR Executive,Design,102924,2021-01-17,grattan@example.com,6316978731,Bharatpur,Tamil Nadu,3,0,Intern,Remote
+18,Alka Kohli,51,M,Marketing Specialist,Operations,141346,2021-09-18,jkaul@example.com,+916399918644,Hospet,Haryana,2,8,Full-Time,Hybrid
+19,Dev Dhillon,25,M,Software Developer,Operations,99618,2021-03-29,orattan@example.com,03856790561,Miryalaguda,Jharkhand,3,0,Contract,Hybrid
+20,Varsha Mohanty,52,F,HR Executive,IT,81794,2023-09-27,kritika96@example.com,01430477214,Gwalior,Gujarat,5,13,Intern,On-site
+21,Arya Muni,26,M,Marketing Specialist,Finance,118995,2023-08-02,michaelsarna@example.org,+917741969252,Raurkela Industrial Township,Rajasthan,5,1,Full-Time,On-site
+22,Kamala Sur,60,F,Support Engineer,Support,107379,2023-04-10,pbhagat@example.com,06717870618,Narasaraopet,Himachal Pradesh,5,36,Intern,Hybrid
+23,Quincy Kale,43,F,Support Engineer,HR,57755,2021-07-16,zachariaparth@example.com,04099775959,Guna,Tripura,1,17,Contract,Remote
+24,Bahadurjit Bora,38,M,Data Analyst,Finance,51857,2025-05-13,ethan19@example.net,+916281804843,Haldia,Rajasthan,4,0,Contract,Remote
+25,Neha Varkey,43,M,Product Manager,Marketing,59573,2020-07-17,tpau@example.com,08656902764,Amaravati,Uttar Pradesh,2,22,Intern,Remote
+26,Bhavna Dugar,31,F,Accountant,Marketing,43943,2021-12-04,avnirama@example.org,+913488039207,Kadapa,Goa,2,9,Full-Time,Remote
+27,Nilima Chaudhari,44,F,Support Engineer,IT,147381,2020-07-19,lataoeshi@example.net,6726587715,Meerut,Meghalaya,5,14,Full-Time,Remote
+28,Vanya Soman,46,F,Support Engineer,Finance,46201,2020-04-20,janya01@example.org,09802818663,Ujjain,Jharkhand,2,13,Intern,Remote
+29,Gautami Yadav,33,M,Support Engineer,HR,92787,2023-02-04,yagneshyohannan@example.org,4018501325,Karawal Nagar,Telangana,2,10,Full-Time,Hybrid
+30,Amaira Ramakrishnan,45,F,HR Manager,Operations,100539,2025-02-15,arinchaudhari@example.com,05530776473,Guwahati,Jharkhand,3,7,Intern,Hybrid
+31,Saumya Mann,46,F,Support Engineer,Support,65752,2023-11-21,maxlanka@example.com,4202678582,Amritsar,Goa,3,3,Full-Time,On-site
+32,Aarini Ramesh,26,F,Product Manager,Design,74961,2024-01-25,ftaneja@example.org,03574585681,Surendranagar Dudhrej,Rajasthan,5,5,Intern,On-site
+33,Aarna Guha,53,F,Product Manager,IT,108197,2025-03-10,pranit30@example.org,8960076166,Bhilwara,Manipur,2,27,Contract,Remote
+34,Anya Mammen,37,M,Software Developer,Design,70793,2022-09-04,prashadarya@example.com,00587697974,Hajipur,Sikkim,1,14,Intern,On-site
+35,Amruta Bora,30,F,Accountant,Support,78692,2022-02-22,yraman@example.net,00616560459,Bhusawal,Meghalaya,1,6,Intern,Remote
+36,Nandini Rana,51,M,Support Engineer,Design,75175,2025-08-28,maanavedwin@example.net,+911679012939,Gulbarga,Tamil Nadu,4,11,Contract,On-site
+37,Urishilla Doshi,41,M,Accountant,Support,68605,2021-08-30,leela55@example.net,+910898513039,Bhiwani,Kerala,1,7,Intern,Hybrid
+38,Ekantika Comar,28,F,Marketing Specialist,HR,55011,2021-12-25,gautamichandran@example.org,0471917653,Tinsukia,Tripura,3,4,Full-Time,On-site
+39,Rachit Chaudry,56,F,HR Executive,Operations,61169,2019-11-12,gunbir73@example.com,+918484451309,Bathinda,Punjab,4,28,Full-Time,Remote
+40,Anya Bail,23,F,Data Analyst,IT,117040,2023-11-16,ssinha@example.net,4005811624,Tirunelveli,Sikkim,1,2,Full-Time,Hybrid
+41,Rachit Bali,22,F,Team Lead,Finance,75826,2020-09-09,netra89@example.org,1031445004,Malda,Himachal Pradesh,2,1,Contract,Hybrid
+42,Abeer Kalita,56,M,Marketing Specialist,HR,45134,2020-11-19,abhimanyugolla@example.org,+918565412914,Farrukhabad,Himachal Pradesh,4,33,Contract,Hybrid
+43,Ekta Sani,37,M,Support Engineer,HR,133785,2023-06-27,xdhawan@example.net,08442939087,Proddatur,Punjab,5,3,Contract,Hybrid
+44,Anika Jha,58,F,Data Analyst,Finance,71011,2023-10-25,vidhirajan@example.org,3568310516,Tadepalligudem,Maharashtra,3,20,Full-Time,On-site
+45,Samesh Saran,53,M,Software Developer,IT,103060,2022-08-21,iprakash@example.org,4890168277,Varanasi,Kerala,1,9,Intern,On-site
+46,Krish Doshi,25,M,Software Developer,Marketing,112141,2020-07-01,mannansudiksha@example.net,03141305782,Warangal,Uttarakhand,5,3,Intern,Remote
+47,Qushi Bhatti,30,M,UI/UX Designer,Operations,65063,2023-01-15,fiyaz18@example.com,0723942373,Satara,Haryana,5,0,Intern,On-site
+48,Agastya Wali,30,M,Team Lead,HR,89364,2020-05-17,batraalka@example.net,+913927354863,Karnal,Maharashtra,3,2,Full-Time,Remote
+49,Barkha Barad,39,M,Support Engineer,Operations,139179,2020-01-18,deshpandevarenya@example.net,09624878212,Gangtok,Kerala,5,16,Full-Time,Hybrid
+50,Harshil Kata,47,M,Support Engineer,HR,97559,2022-05-10,racharya@example.net,4979324803,Chinsurah,West Bengal,3,12,Full-Time,Remote
+51,Lakshit Bajaj,47,F,Product Manager,Design,47247,2022-03-10,pnarayan@example.com,+913252336673,Solapur,Gujarat,3,3,Contract,On-site
+52,Vritti Patla,38,M,HR Manager,Design,95039,2023-07-21,gmorar@example.net,0011033193,Nandyal,Rajasthan,1,6,Intern,Remote
+53,Ekansh Comar,23,F,Support Engineer,IT,144942,2023-12-02,lakshmibatra@example.com,00673600944,Kulti,Himachal Pradesh,5,0,Intern,Hybrid
+54,Chaman Garde,39,F,Accountant,Marketing,141158,2024-12-30,yachana90@example.org,+918636874599,Bellary,Manipur,3,7,Contract,Remote
+55,Fitan Kurian,42,M,UI/UX Designer,Support,112672,2022-11-17,hmann@example.org,00231412076,Hosur,Sikkim,5,19,Contract,On-site
+56,Chatresh Mand,43,M,Software Developer,Operations,144421,2025-09-30,chandranravel@example.org,4210776289,Tinsukia,Telangana,3,21,Full-Time,Remote
+57,Lakshit Majumdar,29,M,Data Analyst,Operations,127584,2023-07-01,randhawaguneet@example.net,+917227755690,Visakhapatnam,Goa,3,1,Intern,Remote
+58,Shivani Jayaraman,46,M,Data Analyst,Operations,136583,2023-03-21,kamala78@example.com,7980092242,Sri Ganganagar,Sikkim,1,19,Contract,On-site
+59,Aditya Agate,44,M,Team Lead,Support,147380,2024-04-09,gabachakradev@example.com,9390470414,Maheshtala,Haryana,3,8,Intern,On-site
+60,Liam Mall,33,M,Software Developer,Design,75396,2023-07-17,kalafaraj@example.org,0631859955,Adoni,Kerala,3,1,Full-Time,Hybrid
+61,Mitesh Ramanathan,38,F,UI/UX Designer,IT,144268,2020-03-05,alkabains@example.org,09108705191,Darbhanga,Meghalaya,4,15,Intern,Hybrid
+62,Azaan Grover,53,M,Marketing Specialist,IT,108038,2022-08-27,indrajitsane@example.org,08157697507,Naihati,Mizoram,4,31,Full-Time,Hybrid
+63,Anay Gokhale,38,M,Support Engineer,IT,52080,2023-01-13,vinayapadmanabhan@example.net,9400419880,Mango,Mizoram,2,8,Full-Time,On-site
+64,Anjali Tripathi,39,F,Team Lead,Support,149369,2023-06-13,amol75@example.org,2929541346,Rourkela,Madhya Pradesh,5,4,Full-Time,On-site
+65,Megha Misra,43,M,Data Analyst,Marketing,55599,2021-06-04,nadignicholas@example.net,5137012701,Bilaspur,Himachal Pradesh,3,16,Full-Time,On-site
+66,Nachiket Modi,27,F,Data Analyst,HR,122140,2020-03-07,ikbal29@example.org,5148891379,Bettiah,Himachal Pradesh,1,5,Full-Time,Remote
+67,Upasna Kant,28,M,Software Developer,HR,147355,2021-03-01,natarajannidra@example.com,4757793815,Kalyan-Dombivli,Goa,5,3,Contract,Hybrid
+68,Aarna Singh,54,M,HR Executive,Support,124932,2024-02-17,anitamangat@example.net,8117275393,Bardhaman,Odisha,2,14,Contract,Hybrid
+69,Amrita Nanda,39,M,UI/UX Designer,IT,89296,2024-04-07,zashilmerchant@example.net,+910528633062,Tirunelveli,Rajasthan,1,13,Intern,On-site
+70,Lekha Jhaveri,45,M,HR Executive,Operations,126644,2020-03-06,sundervedant@example.org,8826697466,Orai,Tamil Nadu,4,8,Contract,On-site
+71,Indrajit Ghose,48,F,UI/UX Designer,Support,107452,2025-06-12,nandini86@example.net,6964933432,Allahabad,Bihar,4,7,Intern,Remote
+72,Aryan Ganesan,32,F,Marketing Specialist,IT,124925,2024-09-23,panchalchaitaly@example.org,+919382122732,Panihati,Arunachal Pradesh,2,7,Contract,Hybrid
+73,Yachana Savant,37,F,Marketing Specialist,Finance,130767,2021-12-13,elijahsha@example.org,04102946379,Mango,Sikkim,2,7,Intern,On-site
+74,Laksh Balakrishnan,28,F,Support Engineer,Support,118923,2023-06-10,enadkarni@example.com,+917419616869,Baranagar,Meghalaya,5,6,Intern,Hybrid
+75,Raagini Borra,54,F,Accountant,Support,78098,2022-04-13,yashica63@example.com,03397599568,Bhind,Bihar,1,22,Full-Time,Hybrid
+76,Harinakshi Mitter,32,M,HR Executive,IT,96149,2024-01-07,shravya29@example.com,8332418168,Gulbarga,Rajasthan,3,9,Full-Time,On-site
+77,Yatin Jani,23,M,Product Manager,Finance,98696,2020-05-18,reddywishi@example.net,08781053190,Dhule,Gujarat,4,1,Full-Time,On-site
+78,Manan Kata,24,M,Team Lead,HR,88051,2023-09-26,akrish@example.net,+917483601073,Bidar,Sikkim,2,1,Contract,Hybrid
+79,Bhavika Sachdev,34,F,HR Executive,Design,125303,2020-01-01,onkarwali@example.org,3922013330,Eluru,Sikkim,5,4,Full-Time,Remote
+80,Amara Sarma,35,M,Software Developer,HR,55935,2020-05-26,badamichandani@example.net,2273994388,Ratlam,Odisha,5,10,Intern,Hybrid
+81,Jasmit Gupta,29,F,Product Manager,Operations,59552,2021-08-18,singhalyashica@example.com,+915705327856,Aizawl,Mizoram,4,6,Contract,On-site
+82,Ayushman Lalla,40,F,Support Engineer,HR,129541,2025-04-11,vgulati@example.net,+912959738105,Sikar,Assam,5,19,Contract,On-site
+83,Vrishti Sachdeva,47,M,Data Analyst,Marketing,54879,2024-09-29,hvora@example.net,+913021837150,Narasaraopet,Nagaland,5,11,Intern,Hybrid
+84,Gauri Apte,46,F,UI/UX Designer,IT,61211,2023-10-11,harshmallick@example.net,4891597785,Unnao,Nagaland,4,11,Full-Time,On-site
+85,Falguni Choudhury,24,M,HR Executive,HR,97008,2021-08-12,lsaxena@example.net,5030088666,Bhilai,Madhya Pradesh,4,0,Full-Time,Hybrid
+86,Mohammed Bains,28,F,Product Manager,Operations,135228,2025-05-27,brareiravati@example.com,3873734619,Giridih,Arunachal Pradesh,1,4,Intern,Hybrid
+87,Upadhriti Venkataraman,38,M,Marketing Specialist,HR,80402,2023-07-06,mason95@example.com,9991268093,Tezpur,Sikkim,4,12,Full-Time,On-site
+88,Dev Deshmukh,41,M,Support Engineer,Marketing,55876,2022-09-30,rishi14@example.org,05471857767,Jorhat,Telangana,4,8,Contract,Remote
+89,Rishi Memon,22,M,HR Manager,Finance,57764,2020-05-27,azad48@example.net,08513724889,Khora ,Andhra Pradesh,3,1,Contract,On-site
+90,Mitesh Sen,48,M,Software Developer,Finance,72943,2021-02-09,dalaja52@example.com,1960040452,Rewa,Maharashtra,5,1,Full-Time,Remote
+91,Udant Hayer,52,M,HR Executive,Operations,137365,2021-01-23,zansi15@example.org,06949659845,Jodhpur,Goa,2,0,Full-Time,Remote
+92,Tamanna Tella,22,M,UI/UX Designer,Finance,109897,2021-10-15,fkaran@example.net,+911803543957,Howrah,Karnataka,4,1,Full-Time,Remote
+93,Faraj Ganesan,38,F,HR Executive,IT,95596,2022-01-31,oommenzilmil@example.org,+916625055667,Siwan,Arunachal Pradesh,5,4,Contract,Hybrid
+94,Anmol Mitter,58,M,HR Executive,Support,110043,2020-11-11,bahadurjitramakrishnan@example.com,+916840268986,Sikar,Assam,1,16,Intern,Remote
+95,Sai Nadkarni,30,F,Team Lead,HR,71954,2024-07-03,chanafalguni@example.org,07928582320,Haridwar,Bihar,1,3,Full-Time,Hybrid
+96,Bakhshi Goyal,41,M,Product Manager,Finance,103450,2025-01-28,bbutala@example.com,07434345639,Rampur,Assam,3,14,Contract,On-site
+97,Ayushman Sekhon,47,M,Team Lead,Design,134433,2023-10-23,tripathibimala@example.net,0959714595,Bijapur,Karnataka,1,14,Full-Time,Remote
+98,Mason Madan,48,F,Software Developer,IT,92325,2021-11-19,yastikapadia@example.net,3063197375,Pune,Haryana,5,7,Contract,On-site
+99,Ekta Mahajan,44,M,Support Engineer,IT,136795,2022-01-04,reyansh60@example.net,5574669965,Gurgaon,Chhattisgarh,4,11,Full-Time,On-site
+100,Alka Jha,32,M,Product Manager,Marketing,106453,2025-03-04,hardikmukhopadhyay@example.com,04170407060,Jalandhar,Bihar,4,0,Full-Time,Remote

@@ -1,0 +1,241 @@
+# Employee SQL Assistant (LLM + SQLite + Streamlit)
+
+This project is an AI-powered SQL assistant that allows users to ask natural-language questions about an employee database.  
+The system automatically converts the question into an SQL query using Gemini, executes it on SQLite, displays the results, and provides a detailed explanation of the query — all inside a Streamlit interface.
+
+---
+
+## 🚀 Features
+
+✅ Convert English → SQL query  
+✅ Executes SQL on SQLite DB  
+✅ Shows SQL + Results + Explanation side-by-side  
+✅ Streamlit UI for interaction  
+✅ Example question suggestions  
+✅ Uses Gemini for query generation + explanation  
+
+---
+
+## 🏗️ Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| LLM | Google Gemini |
+| UI | Streamlit |
+| Language | Python |
+| Database | SQLite |
+| Data Handling | Pandas |
+| Env Management | dotenv |
+
+---
+
+# ✅ Project Overview
+
+This project helps users interact with a database **without learning SQL**.
+
+✅ Just type questions like:
+> "Who earns more than 60,000?"  
+> "Show employees from Mumbai."  
+> "Count employees working as Data Analysts."
+
+The system will:
+1) Convert question → SQL  
+2) Execute SQL on SQLite  
+3) Display results  
+4) Explain SQL step-by-step  
+
+So even someone who doesn't know SQL can query databases in seconds.
+
+---
+
+# ✅ File-Level Explanation
+
+## ✅ 1) `sql_import.py` — ✅ Database Builder
+
+This script loads all files from the `/data/` folder and automatically creates a SQLite database.
+
+### 📌 What it does
+✔ Reads CSV/XLSX files  
+✔ Converts each file → table  
+✔ Creates `Employee_Details.DB`  
+✔ Table name = file name  
+
+### 🛠️ Steps performed
+
+1️⃣ Connects to database  
+2️⃣ Scans `/data/` folder  
+3️⃣ Loads each file into Pandas  
+4️⃣ Saves it to SQLite  
+5️⃣ Prints table creation success  
+
+### 📌 Example
+`employee_details.csv` → creates table `employee_details`
+
+---
+
+## ✅ 2) `app.py` — ✅ Main Application (UI + LLM + SQL Execution)
+
+This is the main Streamlit application responsible for the user interface and LLM + SQL execution.
+
+### 📌 Responsibilities
+✔ Accepts natural language questions  
+✔ Uses Gemini → SQL  
+✔ Executes SQL query  
+✔ Displays:
+- SQL query  
+- Query results  
+- Explanation of SQL  
+
+### 🔎 Main components
+
+| Component | Role |
+|-----------|------|
+| `get_gemini_sql()` | Converts English → SQL |
+| `read_sql_query()` | Executes SQL + returns data |
+| `explain_sql_query()` | Explains SQL logic |
+| Prompt | Guides Gemini response |
+| Streamlit UI | User interface |
+
+---
+
+### 📌 Function Details
+
+✅ **get_gemini_sql()**  
+- Sends prompt + question to Gemini  
+- Extracts only SQL  
+- Returns valid SELECT query  
+
+✅ **read_sql_query()**  
+- Runs SQL using sqlite3  
+- Returns rows + column headers  
+- Handles errors  
+
+✅ **explain_sql_query()**  
+- Asks Gemini to explain SQL in simple English  
+
+✅ **Streamlit UI**
+- Text field  
+- Example questions  
+- RUN button  
+- Results + explanation side-by-side  
+
+---
+
+### 🧠 Prompt Logic
+
+The prompt instructs Gemini to:
+
+✔ Convert natural language → SQL  
+✔ Use SQLite syntax only  
+✔ Work on `employee_details` table  
+✔ Use correct column names  
+✔ Avoid semicolons + backticks  
+✔ Use LIKE for text matching  
+
+Supports synonyms:
+```
+employees | staff | employee | workers
+```
+→ All refer to `employee_details` table.
+
+---
+
+# 📂 Project Structure
+
+```
+project/
+│
+├── app.py                 # Main Streamlit app
+├── sql_import.py          # Convert CSV → SQLite
+├── Employee_Details.DB    # SQLite database
+├── data/                  # Input files
+│   └── employee_details.csv
+├── .env                   # API key
+└── README.md              # Docs
+```
+
+---
+
+# 🗄 Database
+
+### 📁 Database File
+```
+Employee_Details.DB
+```
+
+### 📌 Table
+```
+employee_details
+```
+
+### 📌 Columns
+```
+employee_id
+name
+age
+gender
+role
+department
+salary
+join_date
+email
+phone
+city
+state
+performance_rating
+experience_years
+employment_type
+work_mode
+```
+
+---
+
+# ▶️ Workflow
+
+```
+User → Question → Gemini → SQL → SQLite → Result → Explanation
+```
+
+---
+
+# 📦 Installation
+
+✅ 1) Clone repo
+```bash
+git clone https://github.com/chaudharivaibhav471
+cd sql_project
+```
+
+
+# 🧪 Sample Questions
+
+```
+List all employees.
+Show only Software Developers.
+Who earns more than 60,000?
+Count of Data Analysts.
+Highest salary employee.
+Provide average salary by department.
+Show employees from Mumbai.
+Employees who joined after 2022.
+Employees with rating > 4.
+Count employees with experience > 5 years.
+```
+
+---
+
+# ✅ Future Enhancements
+
+- Multi-table joins
+- Data charts
+- Export results as CSV
+- Query history
+- Login system
+- Insert/update/delete support
+
+---
+# 👨‍💻 Author
+
+Name :- **Vaibhav Chaudhari**
+Mob No:- 7057857025
+Emailid :- chaudharivaibhav471@gmail.com
